@@ -11,7 +11,7 @@ on:
   # 在主分支上的每次推送时运行
   push:
     branches:
-      - master
+      - main
 
 permissions:
   contents: write
