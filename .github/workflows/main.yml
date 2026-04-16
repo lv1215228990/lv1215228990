@@ -31,6 +31,7 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_PAT: ${{ secrets.GITHUB_TOKEN }}
 
       - name: push to output branch
         uses: peaceiris/actions-gh-pages@v3
